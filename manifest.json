@@ -1,0 +1,20 @@
+{  
+    "name": "Metropotwit",
+    "manifest_version": 2,
+    "version" : "0.1",  
+    "description": "Metropotwit is a google chrome extension for cleaning up the twitter ui in Metro UI like fashion.",  
+    "icons": { "16": "16.png",
+           "48": "48.png",
+          "128": "128.png" },
+	"content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+  	  "css": ["metropotwit.css"],
+      "js": ["jquery.js", "some.js"]
+    }
+  ], 
+    "permissions": [  
+        "tabs", "http://*/*", "https://*/*"  
+    ]  
+	
+}  
