@@ -1,20 +1,15 @@
 {  
-    "name": "Metropotwit",
-    "manifest_version": 2,
-    "version" : "0.1",  
-    "description": "Metropotwit is a google chrome extension for cleaning up the twitter ui in Metro UI like fashion.",  
-    "icons": { "16": "16.png",
-           "48": "48.png",
-          "128": "128.png" },
-	"content_scripts": [
+    "name": "tagteam",  
+    "version" : "2.0",  
+    "description": "lol not even are you even yes? cube.",  
+  "content_scripts": [
     {
-      "matches": ["https://twitter.com/*"],
-  	  "css": ["metropotwit.css"],
+      "matches": ["https://www.team9000.net/*"],
       "js": ["jquery.js", "some.js"]
     }
   ], 
     "permissions": [  
         "tabs", "http://*/*", "https://*/*"  
     ]  
-	
+  
 }  

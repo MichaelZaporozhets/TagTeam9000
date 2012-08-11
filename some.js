@@ -1,13 +1,11 @@
 	if (localStorage.getItem('taglist')) {
 	    var taglist = JSON.parse(localStorage.getItem('taglist'));
-	    console.dir(taglist)
 	} else {
 	    var taglist = {};
 	}
 	var newtag = function (name) {
 	    var tag = prompt('enter a tag');
 	    taglist[name] = tag;
-	    console.dir(taglist)
 	    localStorage.setItem('taglist', JSON.stringify(taglist));
 	    $('p, h3.userText a, .privateControls .item.muted a, #nkBar3 .crumbs span a, .userInfo h3.username a, .pairsInline.lastActivity dt, .headline.noimg.small h1 a, .lnblogRecentEntryMeta span a, .lnblogRecentEntryTitle a, .titleBar h1, .lnblogSidebar.lnblogSidebarMoreEntries.section .secondaryContent h3, .lnblogRecentUserEntryTitle a, .lnblogLinkDark.lnblogEntryAuthor a, .LikeText a, .lnblogLinkDark a, .lnblogLinkDarker a, .mainText.secondaryContent h1, .pairsInline.lastActivity dt,.pairsInline.lastActivity dd, .primaryContent.messageSimple .messageInfo .messageContent a, .commentContent a, .followBlock .muted, .lastThreadMeta a, .section.membersOnline.userList .secondaryContent .listInline li a, .username, #nkTopBarRight a').each(function () {
 	        $(this).html($(this).html().replace(name, tag))
