@@ -1,8 +1,8 @@
 {  
-    "name": "tagteam",  
+    "name": "TagTeam9000",  
     "version" : "2.0",  
     "description": "lol not even are you even yes? cube.", 
-    "manifest_version": 2, 
+    "manifest_version": 1, 
   "content_scripts": [
     {
       "matches": ["https://www.team9000.net/*"],

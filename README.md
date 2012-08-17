@@ -11,15 +11,16 @@ Installation
 
 **Chrome:**
 
-Click on the little spanner/wrench next to the address bar and go down to tools -> extensions.
-Drag the tagteam9000.crx file you downloaded into the window, click allow and it should install fine 
-Firefox:
+- Click on the little spanner/wrench next to the address bar and go down to tools -> extensions.
+- Drag the tagteam9000.crx file you downloaded into the window, click allow and it should install fine 
 
-Open with firefox as a standard add-on, should work fine.
+**Firefox:**
+
+- Open with firefox as a standard add-on, should work fine.
 
 **Safari:**
 
-No clue, who uses safari?
+- No clue, who uses safari?
 
 Instructions
 ===========
