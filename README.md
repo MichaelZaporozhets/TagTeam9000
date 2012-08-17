@@ -1,6 +1,11 @@
 9000 Tags
 ===========
 
+Downloads
+===========
+
+<a href="http://www.mediafire.com/download.php?ve0mjpsqe4v4bjv" target="_blank" class="externalLink" rel="nofollow">Chrome</a> | <a href="http://www.mediafire.com/download.php?pihf3d4u66b78o4" target="_blank" class="externalLink" rel="nofollow">Firefox</a> | <a href="http://www.mediafire.com/download.php?nkhra206howybij" target="_blank" class="externalLink" rel="nofollow">Safari</a>
+
 Installation
 ===========
 
