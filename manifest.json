@@ -1,16 +1,16 @@
 {  
     "name": "TagTeam9000",  
-    "version" : "2.0",  
+    "version" : "1.0",  
     "description": "lol not even are you even yes? cube.", 
-    "manifest_version": 1, 
+    "manifest_version": 2, 
   "content_scripts": [
     {
       "matches": ["https://www.team9000.net/*"],
-      "js": ["jquery.js", "some.js"]
+      "js": ["some.js"]
     }
   ], 
     "permissions": [  
-        "tabs", "http://*/*", "https://*/*"  
+        "https://*.team9000.net/*" 
     ]  
   
 }  
